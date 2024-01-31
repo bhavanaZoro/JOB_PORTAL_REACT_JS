@@ -1,0 +1,4 @@
+add node modules for this project
+npm start
+npm test
+check the output in localhost:3000

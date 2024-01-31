@@ -1,0 +1,66 @@
+.title {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title > h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+span {
+  color: black;
+}
+.button {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.button a {
+  background-color: #fff;
+  flex-direction: column;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bolder;
+}
+.button a:hover {
+  background: black;
+  transition: 0.5s ease;
+  color: black;
+  border: 2px solid #fff;
+  color: white;
+}
+.small-tagline {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.small-tagline p {
+  font-weight: bold;
+    color: white;
+    top: 50%;
+    /* opacity: 0.7; */
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social-media > img {
+  width: 70px;
+}
+  @media (max-width: 640px){
+    .title{
+      font-size: 25px;
+    }
+  }

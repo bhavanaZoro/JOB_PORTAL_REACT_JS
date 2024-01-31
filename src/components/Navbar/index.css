@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+.banner-img{
+background:url("https://media.istockphoto.com/id/979622962/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%9A%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B9%8C%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9A%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B5%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B9%8D%E0%B8%B2%E0%B8%A7%E0%B9%88%E0%B8%B2-career-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%AD%E0%B8%81%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%84.jpg?s=170667a&w=0&k=20&c=JOxPgSCnbUKvImq0bO-3doJHyOnssgJCBgAw6bn4RnM=");
+height: 650px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    color: #000;
+    padding: 1.1rem;
+    position: sticky;
+  }
+  
+  #navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  #navbar ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    color: #0000;
+    font-weight: bold;
+    background: linear-gradient(90deg,#6B5DF2 50%,#000 0)  var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: 1s;
+  }
+  #navbar ul li a:hover {
+    --_p: 0%;
+  }
+  .logo >span{
+    color: #00d7ff;
+  }
+  @media (max-width: 640px) {
+    #navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #navbar .logo {
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+  
+    #navbar ul {
+      padding: 0.5rem;
+    }
+    #navbar ul li a {
+      padding: 0.5rem;
+    }
+  }
+  
+
